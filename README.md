@@ -50,22 +50,25 @@ This project is focused on solving a real-world classification problem using str
 
 ## 🛠️ How to Run the App
 
-```bash
 # Clone the repository
 git clone https://github.com/Roni-Seikh/Employee-Salary-Prediction.git
 cd Employee-Salary-Prediction
 
-# Create a virtual environment (optional)
+# (Optional) Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
 
-# Install dependencies
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install required dependencies
 pip install -r requirements.txt
 
-# Run the Streamlit App
+# Run the Streamlit application
 streamlit run app.py
-
-```
 
 ## 🧪 Model Performance
 
