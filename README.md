@@ -65,6 +65,8 @@ pip install -r requirements.txt
 # Run the Streamlit App
 streamlit run app.py
 
+```
+
 ## 🧪 Model Performance
 
 | Model               | Accuracy |
